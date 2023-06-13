@@ -1,4 +1,4 @@
-from bardapi import Bard
+from ChatBardapi import ChatBard
 import streamlit as st
 from streamlit_chat import message
 import os
@@ -10,10 +10,10 @@ os.environ['_BARD_API_KEY']="XQh_W_hP1Odfep7S9YNZn6PZsPxEWt3VRaEq2Mn0lMf0qlzRh1l
 
 # print(Bard().get_answer(str(message))['content'])
 
-st.title("Google Bard Clone")
+st.title("Google ChatBard Clone")
 
 def response_api(promot):
-	message=Bard().get_answer(str(promot))['content']
+	message=ChatBard().get_answer(str(promot))['content']
 	return message
 
 

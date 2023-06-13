@@ -1,2 +1,1 @@
-My requirements file:
 pip install bardapi==0.1.11

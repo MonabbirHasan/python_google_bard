@@ -1,1 +1,4 @@
 pip install bardapi
+pip install bard
+pip install bardapi==0.1.11
+pip install bardapi==0.1.10
